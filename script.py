@@ -1,6 +1,13 @@
-# dados da empresa, preenchidos manualmente, para serem usados posteriormente
+# Dados e Informações:
 
-# uso de dicionário para armazenar os dados da empresa
+# dados de login
+login_data = {
+    "usuario": "admin",
+    "email": "admin@email.com",
+    "senha": "123456",
+}
+
+# dados da empresa
 all_company_data = {
     "nome": "Stampflex",
     "cnpj": "29.232.897/0001-60",
@@ -15,7 +22,17 @@ all_company_data = {
     "complemento": "Galpão",
 }
 
-# função para exibir os dados da empresa de forma organizada
+#Funções:
+
+# Valida o login do usuário, comparando os dados inseridos com os dados pré-definidos
+def login(email, senha):
+    if email == login_data["email"] and senha == login_data["senha"]:
+        return True
+    else:
+        return False
+
+
+# Exibir os dados da empresa de forma organizada
 def show_company_data(data):
     # print("Dados da Empresa:")
 
@@ -28,6 +45,21 @@ def show_company_data(data):
 
     return result
 
+# Retornos visíveis no terminal:
 
-# Retorno das funções para exibir os dados
-print(show_company_data(all_company_data))
+print("Seja bem vindo ao sistema de controle de estoque da empresa Stampflex!")
+print("Faça login para acessar as informações da empresa.")
+
+email = input("Digite seu email: ")
+senha = input("Digite sua senha: ")
+
+validate_login = login(email, senha)
+
+# se o login falhar, ele não retorna nenhum valor
+if validate_login == False:
+    print("Login falhou. Verifique suas credenciais.")
+
+# se o login for bem-sucedido, ele retorna os dados de todas as funções
+else:
+    print("Login bem-sucedido.")
+    print(show_company_data(all_company_data))
