@@ -100,7 +100,17 @@ def show_stock_products(products):
     for key in products.keys():
         stock_products.append(key)
 
-    result = "Produtos em estoque: " + ", ".join(stock_products)
+    result = "Produtos em estoque: " + stock_products[0] + ", " + stock_products[1] + ", " + stock_products[2] + ", " + stock_products[3] + ", " + stock_products[4] + ", " + stock_products[5]
+
+    return result
+
+def show_data_product(key, value):
+    product_data = []
+
+    for key, value in value.items():
+        product_data.append(f"{key.capitalize()}: {value}")
+
+    result = f"Dados da {key}: " + product_data[0] + ", " + product_data[1] + ", " + product_data[2] + ", " + product_data[3] + ", " + product_data[4] + ", " + product_data[5]
 
     return result
 
@@ -123,3 +133,5 @@ else:
     print("Login bem-sucedido." + "\n")
     print(show_company_data(all_company_data) + "\n")
     print(show_stock_products(all_stock_products) + "\n")
+    for key, value in all_stock_products.items():
+        print(show_data_product(key, value) + "\n")
