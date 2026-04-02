@@ -30,6 +30,7 @@ all_stock_products = {
         "peso": "2kg",
         "quantidade": 100,
         "preco": 10.0,
+        "margem_sobra": 0.1,
     },
     "produto2": {
         "nome": "Produto B",
@@ -38,6 +39,7 @@ all_stock_products = {
         "peso": "2kg",
         "quantidade": 100,
         "preco": 10.0,
+        "margem_sobra": 0.1,
     },
     "produto3": {
         "nome": "Produto C",
@@ -46,6 +48,7 @@ all_stock_products = {
         "peso": "2kg",
         "quantidade": 200,
         "preco": 5.0,
+        "margem_sobra": 0.1,
     },
     "produto4": {
         "nome": "Produto D",
@@ -54,6 +57,7 @@ all_stock_products = {
         "peso": "2kg",
         "quantidade": 200,
         "preco": 5.0,
+        "margem_sobra": 0.1,
     },
     "produto5": {
         "nome": "Produto E",
@@ -62,6 +66,7 @@ all_stock_products = {
         "peso": "2kg",
         "quantidade": 200,
         "preco": 5.0,
+        "margem_sobra": 0.1,
     },
     "produto6": {
         "nome": "Produto F",
@@ -70,6 +75,7 @@ all_stock_products = {
         "peso": "2kg",
         "quantidade": 200,
         "preco": 5.0,
+        "margem_sobra": 0.1,
     },
 }
 
