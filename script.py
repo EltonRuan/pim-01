@@ -110,7 +110,7 @@ def show_data_product(key, value):
     for key, value in value.items():
         product_data.append(f"{key.capitalize()}: {value}")
 
-    result = f"Dados da {key}: " + product_data[0] + ", " + product_data[1] + ", " + product_data[2] + ", " + product_data[3] + ", " + product_data[4] + ", " + product_data[5]
+    result = "Dados do produto: " + product_data[0] + ", " + product_data[1] + ", " + product_data[2] + ", " + product_data[3] + ", " + product_data[4] + ", " + product_data[5]
 
     return result
 
