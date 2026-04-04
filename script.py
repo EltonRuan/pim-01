@@ -22,61 +22,215 @@ all_company_data = {
     "complemento": "Galpão",
 }
 
+# dados dos produtos em estoque
 all_stock_products = {
     "produto1": {
-        "nome": "Produto A",
-        "descricao": "Descrição do Produto A",
-        "dimensoes": "10x20x30 cm",
-        "peso": "2kg",
-        "quantidade": 100,
-        "preco": 10.0,
-        "margem_sobra": 0.1,
+        "nome": "Juntas de expansão de Kevlar",
+        "descricao": "Junta de expansão fabricada em Kevlar, indicada para absorção de vibrações e dilatações em tubulações industriais.",
+        "dimensoes": "30x30x5 cm",
+        "peso": "1.2kg",
+        "quantidade": 50,
+        "preco": 185.0,
+        "margem_sobra": 0.15
     },
     "produto2": {
-        "nome": "Produto B",
-        "descricao": "Descrição do Produto B",
-        "dimensoes": "10x20x30 cm",
-        "peso": "2kg",
-        "quantidade": 100,
-        "preco": 10.0,
-        "margem_sobra": 0.1,
+        "nome": "Juntas de expansão de Fibra de vidro",
+        "descricao": "Junta de expansão em fibra de vidro, ideal para aplicações com alta temperatura e baixa pressão, oferecendo boa resistência térmica.",
+        "dimensoes": "25x25x4 cm",
+        "peso": "0.9kg",
+        "quantidade": 70,
+        "preco": 132.5,
+        "margem_sobra": 0.12
     },
     "produto3": {
-        "nome": "Produto C",
-        "descricao": "Descrição do Produto C",
-        "dimensoes": "10x20x30 cm",
-        "peso": "2kg",
-        "quantidade": 200,
-        "preco": 5.0,
-        "margem_sobra": 0.1,
+        "nome": "Juntas de expansão de Fibra cerâmica",
+        "descricao": "Junta de expansão em fibra cerâmica, indicada para aplicações de altíssimas temperaturas, com excelente isolamento térmico e resistência química.",
+        "dimensoes": "20x20x3 cm",
+        "peso": "0.7kg",
+        "quantidade": 120,
+        "preco": 210.0,
+        "margem_sobra": 0.18
     },
     "produto4": {
-        "nome": "Produto D",
-        "descricao": "Descrição do Produto D",
-        "dimensoes": "10x20x30 cm",
-        "peso": "2kg",
-        "quantidade": 200,
-        "preco": 5.0,
-        "margem_sobra": 0.1,
+        "nome": "Juntas de expansão de Sider",
+        "descricao": "Junta de expansão em material siderúrgico, indicada para sistemas industriais que exigem boa resistência mecânica e durabilidade.",
+        "dimensoes": "28x28x6 cm",
+        "peso": "1.6kg",
+        "quantidade": 80,
+        "preco": 165.0,
+        "margem_sobra": 0.14
     },
     "produto5": {
-        "nome": "Produto E",
-        "descricao": "Descrição do Produto E",
-        "dimensoes": "10x20x30 cm",
-        "peso": "2kg",
-        "quantidade": 200,
-        "preco": 5.0,
-        "margem_sobra": 0.1,
+        "nome": "Juntas de expansão de Tecido de sílica",
+        "descricao": "Junta de expansão em tecido de sílica, indicada para aplicações com altas temperaturas, oferecendo excelente resistência térmica e flexibilidade.",
+        "dimensoes": "22x22x4 cm",
+        "peso": "0.8kg",
+        "quantidade": 90,
+        "preco": 195.0,
+        "margem_sobra": 0.16
     },
     "produto6": {
-        "nome": "Produto F",
-        "descricao": "Descrição do Produto F",
-        "dimensoes": "10x20x30 cm",
-        "peso": "2kg",
-        "quantidade": 200,
-        "preco": 5.0,
-        "margem_sobra": 0.1,
+        "nome": "Juntas de norma de Papelão hidráulico com tela",
+        "descricao": "Junta de vedação em papelão hidráulico com reforço interno em tela, indicada para aplicações com pressão moderada, garantindo maior resistência mecânica.",
+        "dimensoes": "18x18x2 cm",
+        "peso": "0.6kg",
+        "quantidade": 150,
+        "preco": 45.0,
+        "margem_sobra": 0.1
     },
+    "produto7": {
+        "nome": "Juntas de norma de Papelão hidráulico sem tela",
+        "descricao": "Junta de vedação em papelão hidráulico sem reforço, indicada para aplicações de baixa pressão, oferecendo boa vedação com custo reduzido.",
+        "dimensoes": "18x18x2 cm",
+        "peso": "0.5kg",
+        "quantidade": 180,
+        "preco": 32.0,
+        "margem_sobra": 0.08
+    },
+    "produto8": {
+        "nome": "Juntas de norma de Grafite com tela",
+        "descricao": "Junta de vedação em grafite com reforço interno em tela metálica, indicada para altas temperaturas e pressões, com excelente desempenho em ambientes industriais.",
+        "dimensoes": "20x20x2.5 cm",
+        "peso": "0.9kg",
+        "quantidade": 110,
+        "preco": 98.0,
+        "margem_sobra": 0.17
+    },
+    "produto9": {
+        "nome": "Juntas de norma de Grafite sem tela",
+        "descricao": "Junta de vedação em grafite sem reforço interno, indicada para altas temperaturas com baixa a média pressão, oferecendo excelente conformabilidade.",
+        "dimensoes": "20x20x2 cm",
+        "peso": "0.7kg",
+        "quantidade": 140,
+        "preco": 72.0,
+        "margem_sobra": 0.13
+    },
+    "produto10": {
+        "nome": "Juntas patentes de Kevlar",
+        "descricao": "Junta patente em Kevlar, indicada para aplicações industriais que exigem alta resistência mecânica, abrasão e durabilidade em condições severas.",
+        "dimensoes": "24x24x3 cm",
+        "peso": "1.1kg",
+        "quantidade": 95,
+        "preco": 158.0,
+        "margem_sobra": 0.16
+    },
+    "produto11": {
+        "nome": "Juntas patentes de Veda-rosca",
+        "descricao": "Junta patente para vedação de roscas, indicada para sistemas hidráulicos e pneumáticos, garantindo vedação eficiente contra vazamentos.",
+        "dimensoes": "15x15x1 cm",
+        "peso": "0.3kg",
+        "quantidade": 220,
+        "preco": 18.0,
+        "margem_sobra": 0.09
+    },
+    "produto12": {
+        "nome": "Juntas metálicas",
+        "descricao": "Junta metálica de alta resistência, indicada para aplicações que exigem vedação sob altas pressões e temperaturas extremas, oferecendo durabilidade prolongada.",
+        "dimensoes": "22x22x2 mm",
+        "peso": "0.5kg",
+        "quantidade": 130,
+        "preco": 120.0,
+        "margem_sobra": 0.15
+    },
+    "produto13": {
+        "nome": "Protetores de flange de Sider",
+        "descricao": "Protetor de flange em Sider, indicado para proteger superfícies de contato durante armazenamento e transporte, garantindo integridade das peças.",
+        "dimensoes": "30x30x3 mm",
+        "peso": "0.9kg",
+        "quantidade": 160,
+        "preco": 75.0,
+        "margem_sobra": 0.12
+    },
+    "produto14": {
+        "nome": "Protetores de flange de Tecido de sílica com teflon",
+        "descricao": "Protetor de flange em tecido de sílica com camada de teflon, indicado para superfícies sensíveis, resistente a altas temperaturas e produtos químicos.",
+        "dimensoes": "32x32x4 mm",
+        "peso": "0.7kg",
+        "quantidade": 140,
+        "preco": 112.0,
+        "margem_sobra": 0.14
+    },
+    "produto15": {
+        "nome": "Máquina de cortar juntas",
+        "descricao": "Equipamento industrial para corte preciso de juntas em diversos materiais, garantindo acabamento uniforme e eficiência na produção.",
+        "dimensoes": "120x80x150 cm",
+        "peso": "85kg",
+        "quantidade": 5,
+        "preco": 12500.0,
+        "margem_sobra": 0.2
+    },
+    "produto16": {
+        "nome": "Tromba sanfonada de Kevlar com estrutura interna de ferros circulares",
+        "descricao": "Tromba sanfonada em Kevlar com reforço interno de ferros circulares, indicada para absorver vibrações e movimentos em sistemas industriais, com alta durabilidade e resistência mecânica.",
+        "dimensoes": "50x50x40 cm",
+        "peso": "7.5kg",
+        "quantidade": 25,
+        "preco": 850.0,
+        "margem_sobra": 0.18
+    },
+    "produto17": {
+        "nome": "Fitas de PTFE expandido",
+        "descricao": "Fita de PTFE expandido, utilizada para vedação e isolamento em tubulações, resistente a produtos químicos e altas temperaturas, com fácil aplicação.",
+        "dimensoes": "10x0.5x5000 mm",
+        "peso": "0.2kg",
+        "quantidade": 300,
+        "preco": 28.0,
+        "margem_sobra": 0.12
+    },
+    "produto18": {
+        "nome": "Gaxetas de PTFE puro quadrada",
+        "descricao": "Gaxeta quadrada em PTFE puro, indicada para vedação de equipamentos industriais, oferecendo alta resistência química e térmica com baixo atrito.",
+        "dimensoes": "10x10x5 mm",
+        "peso": "0.05kg",
+        "quantidade": 250,
+        "preco": 35.0,
+        "margem_sobra": 0.1
+    },
+    "produto19": {
+        "nome": "Gaxetas de PTFE puro redonda",
+        "descricao": "Gaxeta redonda em PTFE puro, indicada para vedação de eixos e tubulações, com excelente resistência química e térmica, durabilidade elevada e baixo atrito.",
+        "dimensoes": "10x5 mm",
+        "peso": "0.04kg",
+        "quantidade": 230,
+        "preco": 38.0,
+        "margem_sobra": 0.11
+    },
+    "produto20": {
+        "nome": "Gaxetas grafitada quadrada",
+        "descricao": "Gaxeta quadrada grafitada, indicada para vedação de equipamentos industriais sob altas temperaturas e pressão, oferecendo resistência química e durabilidade prolongada.",
+        "dimensoes": "12x12x4 mm",
+        "peso": "0.06kg",
+        "quantidade": 180,
+        "preco": 42.0,
+        "margem_sobra": 0.13
+    },
+    "produto21": {
+        "nome": "Gaxetas grafitada redonda",
+        "descricao": "Gaxeta redonda grafitada, indicada para vedação de eixos e tubulações sob altas temperaturas, com excelente resistência química, durabilidade e baixo atrito.",
+        "dimensoes": "12x4 mm",
+        "peso": "0.05kg",
+        "quantidade": 190,
+        "preco": 44.0,
+        "margem_sobra": 0.12
+    },
+    "produto22": {
+        "nome": "Arruelas de cobre",
+        "descricao": "Arruela de cobre, indicada para fixação e vedação em sistemas hidráulicos e mecânicos, oferecendo boa condutividade elétrica e resistência à corrosão.",
+        "dimensoes": "15x2 mm",
+        "peso": "0.02kg",
+        "quantidade": 500,
+        "preco": 1.5,
+        "margem_sobra": 0.1
+    },
+    "produto23": {
+        "nome": "Arruelas de aço",
+        "descricao": "Arruela de aço, indicada para fixação em sistemas mecânicos e estruturas, oferecendo alta resistência mecânica e durabilidade em ambientes industriais.",
+        "dimensoes": "15x2 mm",
+        "peso": "0.03kg",
+        "quantidade": 450,
+        "preco": 1.2,
+        "margem_sobra": 0.1
+    }
 }
 
 #Funções:
@@ -106,7 +260,7 @@ def show_stock_products(products):
     for key in products.keys():
         stock_products.append(key)
 
-    result = "Produtos em estoque: " + stock_products[0] + ", " + stock_products[1] + ", " + stock_products[2] + ", " + stock_products[3] + ", " + stock_products[4] + ", " + stock_products[5]
+    result = "Produtos em estoque: " + stock_products[0] + ", " + stock_products[1] + ", " + stock_products[2] + ", " + stock_products[3] + ", " + stock_products[4] + ", " + stock_products[5] + ", " + stock_products[6] + ", " + stock_products[7] + ", " + stock_products[8] + ", " + stock_products[9] + ", " + stock_products[10] + ", " + stock_products[11] + ", " + stock_products[12] + ", " + stock_products[13] + ", " + stock_products[14] + ", " + stock_products[15] + ", " + stock_products[16] + ", " + stock_products[17] + ", " + stock_products[18] + ", " + stock_products[19] + ", " + stock_products[20] + ", " + stock_products[21] + ", " + stock_products[22]
 
     return result
 
