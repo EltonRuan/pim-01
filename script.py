@@ -3,8 +3,10 @@
 # dados de login
 login_data = {
     "usuario": "admin",
-    "email": "admin@email.com",
-    "senha": "123456",
+    # "email": "admin@email.com",
+    # "senha": "123456",
+    "email": "",
+    "senha": "",
 }
 
 # dados da empresa
@@ -274,6 +276,30 @@ def show_data_product(key, value):
 
     return result
 
+def calculate_total_stock(products):
+    total_quantity = 0
+    total_value = 0
+
+    for product in products.values():
+        total_quantity += product["quantidade"]
+        total_value += product["preco"] * product["quantidade"]
+
+    return total_quantity, total_value
+
+# def calculate_total_value(preco, quantidade):
+#     total_value = preco * quantidade
+#     return total_value
+
+# def calculate_total_margin(total_value, margem_sobra):
+#     total_margin = total_value * margem_sobra
+#     return total_margin
+
+# def calculate_total_profit(total_value, total_margin):
+#     total_profit = total_value - total_margin
+#     return total_profit
+
+
+
 # Retornos visíveis no terminal:
 
 print("Seja bem vindo ao sistema de controle de estoque da empresa Stampflex!")
@@ -293,5 +319,11 @@ else:
     print("Login bem-sucedido." + "\n")
     print(show_company_data(all_company_data) + "\n")
     print(show_stock_products(all_stock_products) + "\n")
+
     for key, value in all_stock_products.items():
         print(show_data_product(key, value) + "\n")
+
+
+quantidade_total, valor_total = calculate_total_stock(all_stock_products)
+print(f"Quantidade total em estoque: {quantidade_total}")
+print(f"Valor total em estoque: R$ {valor_total:.2f}")
