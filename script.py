@@ -303,7 +303,9 @@ def calculate_product(product):
 
 # Retornos visíveis no terminal:
 
-print("Seja bem vindo ao sistema de controle de estoque da empresa Stampflex!")
+print("\n")
+
+print("Seja bem vindo ao sistema de controle de estoque da empresa Stampflex! " + "\n")
 print("Faça login para acessar as informações da empresa.")
 
 email = input("Digite seu email: ")
@@ -313,36 +315,51 @@ validate_login = login(email, senha)
 
 # se o login falhar, ele não retorna nenhum valor
 if validate_login == False:
-    print("Login falhou. Verifique suas credenciais.")
+    print("Login falhou. Verifique suas credenciais." + "\n")
 
 # se o login for bem-sucedido, ele retorna os dados de todas as funções
 else:
     print("Login bem-sucedido." + "\n")
+
+    print("---------------------------------------------------------------------------" + "\n")
+
     print(show_company_data(all_company_data) + "\n")
+
+    print("---------------------------------------------------------------------------" + "\n")
+    
     print(show_stock_products(all_stock_products) + "\n")
+
+    print("---------------------------------------------------------------------------" + "\n")
 
     # retorna os dados de cada produto
     for key, value in all_stock_products.items():
         print(show_data_product(key, value) + "\n")
 
+    print("---------------------------------------------------------------------------" + "\n")
+
     # retorna os dados gerais dos produtos
     total_quantity, total_weight, total_value = calculate_total_stock(all_stock_products)
-    print(f"Quantidade total em estoque: {total_quantity}")
-    print(f"Peso total em estoque: {total_weight:.2f} kg")
-    print(f"Valor total em estoque: R$ {total_value:.2f}")
+    print(f"Quantidade total dosDados do produto produtos em estoque: {total_quantity}")
+    print(f"Peso total dos produtos em estoque: {total_weight:.2f} kg")
+    print(f"Valor total dos produtos em estoque: R$ {total_value:.2f}" + "\n")
+
+    print("---------------------------------------------------------------------------" + "\n")
+
 
     # retorna os dados do produto, um de cada vez para acessar individualmente 
     for key, value in all_stock_products.items():
         item_value, scraps, scraps_value_per_item, scraps_value, total_quantity, total_weight, total_value, total_value_with_scraps = calculate_product(value)
         print(f"Produto: {value['nome']}")
         print(f"Valor unitário: R$ {item_value:.2f}")
-        print(f"Margem de sobra: {scraps:.2%}")
+        print(f"Margem de sobra para a produção: {scraps:.2%}")
         print(f"Valor da margem por item: R$ {scraps_value_per_item:.2f}")
         print(f"Quantidade total: {total_quantity}")
         print(f"Peso total: {total_weight:.2f} kg")
-        print(f"Valor da margem total: R$ {scraps_value:.2f}")
+        print(f"Valor da sobra total: R$ {scraps_value:.2f}")
         print(f"Valor total: R$ {total_value:.2f}")
         print(f"Valor total com desconto: R$ {total_value_with_scraps:.2f}" + "\n")
 
+    print("---------------------------------------------------------------------------" + "\n")
 
-print("Obrigado por utilizar o sistema de controle de estoque da empresa Stampflex!")
+    print("Obrigado por utilizar o sistema de controle de estoque da empresa Stampflex!")
+    print("\n")
