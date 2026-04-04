@@ -288,6 +288,19 @@ def calculate_total_stock(products):
 
     return total_quantity, total_weight, total_value
 
+def calculate_product(product):
+    
+    item_value = product["preco"]
+    scraps = product["margem_sobra"]
+    scraps_value_per_item = product["preco"] * scraps
+    total_quantity = product["quantidade"]
+    total_weight = product["peso"] * product["quantidade"]
+    total_value = product["preco"] * product["quantidade"]
+    scraps_value = scraps_value_per_item * product["quantidade"]
+    total_value_with_scraps = total_value - scraps_value
+
+    return item_value,scraps, scraps_value_per_item, scraps_value, total_quantity, total_weight, total_value, total_value_with_scraps
+
 # Retornos visíveis no terminal:
 
 print("Seja bem vindo ao sistema de controle de estoque da empresa Stampflex!")
@@ -308,11 +321,28 @@ else:
     print(show_company_data(all_company_data) + "\n")
     print(show_stock_products(all_stock_products) + "\n")
 
+    # retorna os dados de cada produto
     for key, value in all_stock_products.items():
         print(show_data_product(key, value) + "\n")
 
+    # retorna os dados gerais dos produtos
+    total_quantity, total_weight, total_value = calculate_total_stock(all_stock_products)
+    print(f"Quantidade total em estoque: {total_quantity}")
+    print(f"Peso total em estoque: {total_weight:.2f} kg")
+    print(f"Valor total em estoque: R$ {total_value:.2f}")
 
-total_quantity, total_weight, total_value = calculate_total_stock(all_stock_products)
-print(f"Quantidade total em estoque: {total_quantity}")
-print(f"Peso total em estoque: {total_weight:.2f} kg")
-print(f"Valor total em estoque: R$ {total_value:.2f}")
+    # retorna os dados do produto, um de cada vez para acessar individualmente 
+    for key, value in all_stock_products.items():
+        item_value, scraps, scraps_value_per_item, scraps_value, total_quantity, total_weight, total_value, total_value_with_scraps = calculate_product(value)
+        print(f"Produto: {value['nome']}")
+        print(f"Valor unitário: R$ {item_value:.2f}")
+        print(f"Margem de sobra: {scraps:.2%}")
+        print(f"Valor da margem por item: R$ {scraps_value_per_item:.2f}")
+        print(f"Quantidade total: {total_quantity}")
+        print(f"Peso total: {total_weight:.2f} kg")
+        print(f"Valor da margem total: R$ {scraps_value:.2f}")
+        print(f"Valor total: R$ {total_value:.2f}")
+        print(f"Valor total com desconto: R$ {total_value_with_scraps:.2f}" + "\n")
+
+
+print("Obrigado por utilizar o sistema de controle de estoque da empresa Stampflex!")
