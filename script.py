@@ -3,10 +3,8 @@
 # dados de login
 login_data = {
     "usuario": "admin",
-    # "email": "admin@email.com",
-    # "senha": "123456",
-    "email": "",
-    "senha": "",
+    "email": "admin@email.com",
+    "senha": "123456",
 }
 
 # dados da empresa
@@ -339,7 +337,7 @@ else:
 
     # retorna os dados gerais dos produtos
     total_quantity, total_weight, total_value = calculate_total_stock(all_stock_products)
-    print(f"Quantidade total dosDados do produto produtos em estoque: {total_quantity}")
+    print(f"Quantidade total dos produtos em estoque: {total_quantity}")
     print(f"Peso total dos produtos em estoque: {total_weight:.2f} kg")
     print(f"Valor total dos produtos em estoque: R$ {total_value:.2f}" + "\n")
 
