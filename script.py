@@ -30,7 +30,7 @@ all_stock_products = {
         "nome": "Juntas de expansão de Kevlar",
         "descricao": "Junta de expansão fabricada em Kevlar, indicada para absorção de vibrações e dilatações em tubulações industriais.",
         "dimensoes": "30x30x5 cm",
-        "peso": "1.2kg",
+        "peso": 1.2,
         "quantidade": 50,
         "preco": 185.0,
         "margem_sobra": 0.15
@@ -39,7 +39,7 @@ all_stock_products = {
         "nome": "Juntas de expansão de Fibra de vidro",
         "descricao": "Junta de expansão em fibra de vidro, ideal para aplicações com alta temperatura e baixa pressão, oferecendo boa resistência térmica.",
         "dimensoes": "25x25x4 cm",
-        "peso": "0.9kg",
+        "peso": 0.9,
         "quantidade": 70,
         "preco": 132.5,
         "margem_sobra": 0.12
@@ -48,7 +48,7 @@ all_stock_products = {
         "nome": "Juntas de expansão de Fibra cerâmica",
         "descricao": "Junta de expansão em fibra cerâmica, indicada para aplicações de altíssimas temperaturas, com excelente isolamento térmico e resistência química.",
         "dimensoes": "20x20x3 cm",
-        "peso": "0.7kg",
+        "peso": 0.7,
         "quantidade": 120,
         "preco": 210.0,
         "margem_sobra": 0.18
@@ -57,7 +57,7 @@ all_stock_products = {
         "nome": "Juntas de expansão de Sider",
         "descricao": "Junta de expansão em material siderúrgico, indicada para sistemas industriais que exigem boa resistência mecânica e durabilidade.",
         "dimensoes": "28x28x6 cm",
-        "peso": "1.6kg",
+        "peso": 1.6,
         "quantidade": 80,
         "preco": 165.0,
         "margem_sobra": 0.14
@@ -66,7 +66,7 @@ all_stock_products = {
         "nome": "Juntas de expansão de Tecido de sílica",
         "descricao": "Junta de expansão em tecido de sílica, indicada para aplicações com altas temperaturas, oferecendo excelente resistência térmica e flexibilidade.",
         "dimensoes": "22x22x4 cm",
-        "peso": "0.8kg",
+        "peso": 0.8,
         "quantidade": 90,
         "preco": 195.0,
         "margem_sobra": 0.16
@@ -75,7 +75,7 @@ all_stock_products = {
         "nome": "Juntas de norma de Papelão hidráulico com tela",
         "descricao": "Junta de vedação em papelão hidráulico com reforço interno em tela, indicada para aplicações com pressão moderada, garantindo maior resistência mecânica.",
         "dimensoes": "18x18x2 cm",
-        "peso": "0.6kg",
+        "peso": 0.6,
         "quantidade": 150,
         "preco": 45.0,
         "margem_sobra": 0.1
@@ -84,7 +84,7 @@ all_stock_products = {
         "nome": "Juntas de norma de Papelão hidráulico sem tela",
         "descricao": "Junta de vedação em papelão hidráulico sem reforço, indicada para aplicações de baixa pressão, oferecendo boa vedação com custo reduzido.",
         "dimensoes": "18x18x2 cm",
-        "peso": "0.5kg",
+        "peso": 0.5,
         "quantidade": 180,
         "preco": 32.0,
         "margem_sobra": 0.08
@@ -93,7 +93,7 @@ all_stock_products = {
         "nome": "Juntas de norma de Grafite com tela",
         "descricao": "Junta de vedação em grafite com reforço interno em tela metálica, indicada para altas temperaturas e pressões, com excelente desempenho em ambientes industriais.",
         "dimensoes": "20x20x2.5 cm",
-        "peso": "0.9kg",
+        "peso": 0.9,
         "quantidade": 110,
         "preco": 98.0,
         "margem_sobra": 0.17
@@ -102,7 +102,7 @@ all_stock_products = {
         "nome": "Juntas de norma de Grafite sem tela",
         "descricao": "Junta de vedação em grafite sem reforço interno, indicada para altas temperaturas com baixa a média pressão, oferecendo excelente conformabilidade.",
         "dimensoes": "20x20x2 cm",
-        "peso": "0.7kg",
+        "peso": 0.7,
         "quantidade": 140,
         "preco": 72.0,
         "margem_sobra": 0.13
@@ -111,7 +111,7 @@ all_stock_products = {
         "nome": "Juntas patentes de Kevlar",
         "descricao": "Junta patente em Kevlar, indicada para aplicações industriais que exigem alta resistência mecânica, abrasão e durabilidade em condições severas.",
         "dimensoes": "24x24x3 cm",
-        "peso": "1.1kg",
+        "peso": 1.1,
         "quantidade": 95,
         "preco": 158.0,
         "margem_sobra": 0.16
@@ -120,7 +120,7 @@ all_stock_products = {
         "nome": "Juntas patentes de Veda-rosca",
         "descricao": "Junta patente para vedação de roscas, indicada para sistemas hidráulicos e pneumáticos, garantindo vedação eficiente contra vazamentos.",
         "dimensoes": "15x15x1 cm",
-        "peso": "0.3kg",
+        "peso": 0.3,
         "quantidade": 220,
         "preco": 18.0,
         "margem_sobra": 0.09
@@ -129,7 +129,7 @@ all_stock_products = {
         "nome": "Juntas metálicas",
         "descricao": "Junta metálica de alta resistência, indicada para aplicações que exigem vedação sob altas pressões e temperaturas extremas, oferecendo durabilidade prolongada.",
         "dimensoes": "22x22x2 mm",
-        "peso": "0.5kg",
+        "peso": 0.5,
         "quantidade": 130,
         "preco": 120.0,
         "margem_sobra": 0.15
@@ -138,7 +138,7 @@ all_stock_products = {
         "nome": "Protetores de flange de Sider",
         "descricao": "Protetor de flange em Sider, indicado para proteger superfícies de contato durante armazenamento e transporte, garantindo integridade das peças.",
         "dimensoes": "30x30x3 mm",
-        "peso": "0.9kg",
+        "peso": 0.9,
         "quantidade": 160,
         "preco": 75.0,
         "margem_sobra": 0.12
@@ -147,7 +147,7 @@ all_stock_products = {
         "nome": "Protetores de flange de Tecido de sílica com teflon",
         "descricao": "Protetor de flange em tecido de sílica com camada de teflon, indicado para superfícies sensíveis, resistente a altas temperaturas e produtos químicos.",
         "dimensoes": "32x32x4 mm",
-        "peso": "0.7kg",
+        "peso": 0.7,
         "quantidade": 140,
         "preco": 112.0,
         "margem_sobra": 0.14
@@ -156,7 +156,7 @@ all_stock_products = {
         "nome": "Máquina de cortar juntas",
         "descricao": "Equipamento industrial para corte preciso de juntas em diversos materiais, garantindo acabamento uniforme e eficiência na produção.",
         "dimensoes": "120x80x150 cm",
-        "peso": "85kg",
+        "peso": 85.0,
         "quantidade": 5,
         "preco": 12500.0,
         "margem_sobra": 0.2
@@ -165,7 +165,7 @@ all_stock_products = {
         "nome": "Tromba sanfonada de Kevlar com estrutura interna de ferros circulares",
         "descricao": "Tromba sanfonada em Kevlar com reforço interno de ferros circulares, indicada para absorver vibrações e movimentos em sistemas industriais, com alta durabilidade e resistência mecânica.",
         "dimensoes": "50x50x40 cm",
-        "peso": "7.5kg",
+        "peso": 7.5,
         "quantidade": 25,
         "preco": 850.0,
         "margem_sobra": 0.18
@@ -174,7 +174,7 @@ all_stock_products = {
         "nome": "Fitas de PTFE expandido",
         "descricao": "Fita de PTFE expandido, utilizada para vedação e isolamento em tubulações, resistente a produtos químicos e altas temperaturas, com fácil aplicação.",
         "dimensoes": "10x0.5x5000 mm",
-        "peso": "0.2kg",
+        "peso": 0.2,
         "quantidade": 300,
         "preco": 28.0,
         "margem_sobra": 0.12
@@ -183,7 +183,7 @@ all_stock_products = {
         "nome": "Gaxetas de PTFE puro quadrada",
         "descricao": "Gaxeta quadrada em PTFE puro, indicada para vedação de equipamentos industriais, oferecendo alta resistência química e térmica com baixo atrito.",
         "dimensoes": "10x10x5 mm",
-        "peso": "0.05kg",
+        "peso": 0.05,
         "quantidade": 250,
         "preco": 35.0,
         "margem_sobra": 0.1
@@ -192,7 +192,7 @@ all_stock_products = {
         "nome": "Gaxetas de PTFE puro redonda",
         "descricao": "Gaxeta redonda em PTFE puro, indicada para vedação de eixos e tubulações, com excelente resistência química e térmica, durabilidade elevada e baixo atrito.",
         "dimensoes": "10x5 mm",
-        "peso": "0.04kg",
+        "peso": 0.04,
         "quantidade": 230,
         "preco": 38.0,
         "margem_sobra": 0.11
@@ -201,7 +201,7 @@ all_stock_products = {
         "nome": "Gaxetas grafitada quadrada",
         "descricao": "Gaxeta quadrada grafitada, indicada para vedação de equipamentos industriais sob altas temperaturas e pressão, oferecendo resistência química e durabilidade prolongada.",
         "dimensoes": "12x12x4 mm",
-        "peso": "0.06kg",
+        "peso": 0.06,
         "quantidade": 180,
         "preco": 42.0,
         "margem_sobra": 0.13
@@ -210,7 +210,7 @@ all_stock_products = {
         "nome": "Gaxetas grafitada redonda",
         "descricao": "Gaxeta redonda grafitada, indicada para vedação de eixos e tubulações sob altas temperaturas, com excelente resistência química, durabilidade e baixo atrito.",
         "dimensoes": "12x4 mm",
-        "peso": "0.05kg",
+        "peso": 0.05,
         "quantidade": 190,
         "preco": 44.0,
         "margem_sobra": 0.12
@@ -219,7 +219,7 @@ all_stock_products = {
         "nome": "Arruelas de cobre",
         "descricao": "Arruela de cobre, indicada para fixação e vedação em sistemas hidráulicos e mecânicos, oferecendo boa condutividade elétrica e resistência à corrosão.",
         "dimensoes": "15x2 mm",
-        "peso": "0.02kg",
+        "peso": 0.02,
         "quantidade": 500,
         "preco": 1.5,
         "margem_sobra": 0.1
@@ -228,7 +228,7 @@ all_stock_products = {
         "nome": "Arruelas de aço",
         "descricao": "Arruela de aço, indicada para fixação em sistemas mecânicos e estruturas, oferecendo alta resistência mecânica e durabilidade em ambientes industriais.",
         "dimensoes": "15x2 mm",
-        "peso": "0.03kg",
+        "peso": 0.03,
         "quantidade": 450,
         "preco": 1.2,
         "margem_sobra": 0.1
@@ -278,27 +278,15 @@ def show_data_product(key, value):
 
 def calculate_total_stock(products):
     total_quantity = 0
+    total_weight = 0
     total_value = 0
 
     for product in products.values():
         total_quantity += product["quantidade"]
+        total_weight += product["peso"]
         total_value += product["preco"] * product["quantidade"]
 
-    return total_quantity, total_value
-
-# def calculate_total_value(preco, quantidade):
-#     total_value = preco * quantidade
-#     return total_value
-
-# def calculate_total_margin(total_value, margem_sobra):
-#     total_margin = total_value * margem_sobra
-#     return total_margin
-
-# def calculate_total_profit(total_value, total_margin):
-#     total_profit = total_value - total_margin
-#     return total_profit
-
-
+    return total_quantity, total_weight, total_value
 
 # Retornos visíveis no terminal:
 
@@ -324,6 +312,7 @@ else:
         print(show_data_product(key, value) + "\n")
 
 
-quantidade_total, valor_total = calculate_total_stock(all_stock_products)
-print(f"Quantidade total em estoque: {quantidade_total}")
-print(f"Valor total em estoque: R$ {valor_total:.2f}")
+total_quantity, total_weight, total_value = calculate_total_stock(all_stock_products)
+print(f"Quantidade total em estoque: {total_quantity}")
+print(f"Peso total em estoque: {total_weight:.2f} kg")
+print(f"Valor total em estoque: R$ {total_value:.2f}")
