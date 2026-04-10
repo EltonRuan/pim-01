@@ -1,5 +1,3 @@
-# Dados e Informações:
-
 # dados de login
 login_data = {
     "usuario": "admin",
@@ -237,6 +235,8 @@ all_stock_products = {
 
 # Valida o login do usuário, comparando os dados inseridos com os dados pré-definidos
 def login(email, senha):
+    """Função para validar o login do usuário, comparando os dados inseridos com os dados pré-definidos. """
+
     if email == login_data["email"] and senha == login_data["senha"]:
         return True
     else:
@@ -245,18 +245,26 @@ def login(email, senha):
 # Exibir os dados da empresa de forma organizada
 def show_company_data(data):
 
+    """Função para exibir os dados da empresa de forma organizada. """
+
     company_data = []
 
+    # percorre os dados da empresa e adiciona cada dado formatado à lista company_data
     for key, value in data.items():
         company_data.append(f"{key.capitalize()}: {value}")
 
+    # concatena os dados formatados em uma string
     result = "Dados da empresa:" + " " + company_data[0] + ", " + company_data[1] + ", " + company_data[2] + ", " + company_data[3] + ", " + company_data[4] + ", " + company_data[5] + ", " + company_data[6] + ", " + company_data[7] + ", " + company_data[8] + ", " + company_data[9]
 
     return result
 
 def show_stock_products(products):
+
+    """Função para exibir os produtos em estoque de forma organizada. """
+
     stock_products = []
 
+    # percorre os produtos em estoque e adiciona cada produto formatado à lista stock_products
     for key in products.keys():
         stock_products.append(key)
 
@@ -265,8 +273,12 @@ def show_stock_products(products):
     return result
 
 def show_data_product(key, value):
+
+    """Função para exibir os dados de um produto de forma organizada. """
+
     product_data = []
 
+    # percorre os dados do produto e adiciona cada dado formatado à lista product_data
     for key, value in value.items():
         product_data.append(f"{key.capitalize()}: {value}")
 
@@ -275,10 +287,14 @@ def show_data_product(key, value):
     return result
 
 def calculate_total_stock(products):
+
+    """Função para calcular a quantidade total dos itens em estoque, o peso total dos itens em estoque e o valor total dos itens em estoque. """
+
     total_quantity = 0
     total_weight = 0
     total_value = 0
 
+    # percorre os produtos em estoque e soma a quantidade, o peso e o valor
     for product in products.values():
         total_quantity += product["quantidade"]
         total_weight += product["peso"]
@@ -287,6 +303,8 @@ def calculate_total_stock(products):
     return total_quantity, total_weight, total_value
 
 def calculate_product(product):
+
+    """Função para calcular os dados de um produto de forma organizada. """
     
     # valor unitário do item, ou seja, o valor de 1 unidade do item
     item_value = product["preco"]
@@ -294,25 +312,26 @@ def calculate_product(product):
     # quantidade total dos itens em estoque
     total_quantity = product["quantidade"]
 
-    # % do desperdício do item
-    waste_percentage = product["desperdicio"]
-
-    # valor do item com o desperdício, ou seja, o valor do item subtraindo o valor do desperdício
-    item_final_value_unit = product["preco"] - (product["preco"] * waste_percentage)
-
-    total_waste = product["preco"] * product["desperdicio"] * product["quantidade"]
-
     # peso total dos itens em estoque
     total_weight = product["peso"] * product["quantidade"]
 
     # valor total dos itens, sem contar o desperdício
     total_value = product["preco"] * product["quantidade"]
 
+    # % do desperdício do item
+    waste_percentage = product["desperdicio"]
+
+    # valor do item com o desperdício, ou seja, o valor do item subtraindo o valor do desperdício
+    item_final_value_unit = product["preco"] - (product["preco"] * waste_percentage)
+
+    # valor total do desperdício, ou seja, o desperdício multiplicado pela quantidade total dos itens em estoque
+    total_waste = product["preco"] * product["desperdicio"] * product["quantidade"]
+
     # valor total dos itens, contando o desperdício, ou seja, o valor do item com o desperdício multiplicado pela quantidade total dos itens em estoque
     total_value_final = item_final_value_unit * product["quantidade"]
 
 
-    return item_value, waste_percentage, item_final_value_unit, total_value, total_quantity, total_weight, total_value_final, total_waste
+    return item_value, total_quantity, total_weight, total_value, waste_percentage, item_final_value_unit, total_waste, total_value_final
 
 # Retornos visíveis no terminal:
 
@@ -361,7 +380,7 @@ else:
 
     # retorna os dados do item, um de cada vez para acessar individualmente 
     for key, value in all_stock_products.items():
-        item_value, waste_percentage, item_final_value_unit, total_value, total_quantity, total_weight, total_value_final, total_waste = calculate_product(value)
+        item_value, total_quantity, total_weight, total_value, waste_percentage, item_final_value_unit, total_waste, total_value_final = calculate_product(value)
         print(f"Item: {value['nome']}")
         print(f"Valor unitário (1 item): R$ {item_value:.2f}")
         print(f"Estoque total: {total_quantity}")
