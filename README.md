@@ -1,28 +1,27 @@
 # pim-01
 
-## 📑 Navegação
+## Navegação
 
-* [Integrantes do Projeto](#integrantes-do-projeto)
-* [Sobre o Projeto](#sobre-o-projeto)
-* [Tecnologias Utilizadas](#️tecnologias-utilizadas)
-* [Objetivo da Solução](#objetivo-da-solução)
-* [Possíveis Melhorias Futuras](#possíveis-melhorias-futuras)
-* [Funcionamento do Sistema](#funcionamento-do-sistema)
-
----
-
-## Integrantes do Projeto
-
-* ARTHUR DOS SANTOS MORAES
-* BRUNNO MIRANDA DA SILVEIRA
-* ELTON RUAN DA SILVA SANTOS
-* JOÃO VITOR DE ALMEIDA PONTES
-* NATÁLIA NUNES VIEIRA
-* PAULO FERNANDES GERHARDT
+* [Integrantes do Projeto](#integrantes)
+* [Sobre o Projeto](#sobre)
+* [Tecnologias Utilizadas](#tecnologias)
+* [Objetivo da Solução](#objetivo)
+* [Funcionamento do Sistema](#funcionamento)
 
 ---
 
-## Sobre o Projeto
+<h2 id="integrantes">Integrantes do Projeto</h2>
+
+* ARTHUR DOS SANTOS MORAES  
+* BRUNNO MIRANDA DA SILVEIRA  
+* ELTON RUAN DA SILVA SANTOS  
+* JOÃO VITOR DE ALMEIDA PONTES  
+* NATÁLIA NUNES VIEIRA  
+* PAULO FERNANDES GERHARDT  
+
+---
+
+<h2 id="sobre">Sobre o Projeto</h2>
 
 O projeto **pim-01** foi desenvolvido como parte do **Projeto Integrado Multidisciplinar (PIM)** do primeiro semestre da **UNIP – São José dos Campos**, com o tema **"Análise Ética, Socioambiental e Tecnológica da Infraestrutura de Tecnologia da Informação em uma Organização"**.
 
@@ -32,22 +31,22 @@ A aplicação foi implementada utilizando a linguagem **Python**, buscando otimi
 
 ---
 
-## Tecnologias Utilizadas
+<h2 id="tecnologias">Tecnologias Utilizadas</h2>
 
-* Python
-* Git
-
----
-
-## Objetivo da Solução
-
-* Auxiliar no cálculo de valores e estoque total
-* Organizar informações de forma simples e eficiente
-* Servir como base para futuras expansões, como interfaces gráficas ou integração com sistemas
+* Python  
+* Git  
 
 ---
 
-## Funcionamento do Sistema
+<h2 id="objetivo">Objetivo da Solução</h2>
+
+* Auxiliar no cálculo de valores e estoque total  
+* Organizar informações de forma simples e eficiente  
+* Servir como base para futuras expansões, como interfaces gráficas ou integração com sistemas  
+
+---
+
+<h2 id="funcionamento">Funcionamento do Sistema</h2>
 
 O sistema foi desenvolvido com o objetivo de simular um controle de estoque e análise financeira, utilizando estruturas de dados como dicionários e funções para organização das informações.
 
@@ -90,8 +89,6 @@ O sistema realiza automaticamente cálculos importantes para a gestão, como:
 - Quantidade total de itens em estoque  
 - Peso total dos produtos  
 - Valor total do estoque  
-
-Esses dados ajudam na tomada de decisão e no controle geral da empresa.
 
 ### Cálculo por Produto
 
