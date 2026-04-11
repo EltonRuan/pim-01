@@ -2,12 +2,12 @@
 
 ## 📑 Navegação
 
-* [Integrantes do Projeto](#-integrantes-do-projeto)
-* [Sobre o Projeto](#-sobre-o-projeto)
-* [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-* [Objetivo da Solução](#-objetivo-da-solução)
-* [Possíveis Melhorias Futuras](#-possíveis-melhorias-futuras)
-* [Funcionamento do Sistema](#-funcionamento-do-sistema)
+* [Integrantes do Projeto](#integrantes-do-projeto)
+* [Sobre o Projeto](#sobre-o-projeto)
+* [Tecnologias Utilizadas](#️tecnologias-utilizadas)
+* [Objetivo da Solução](#objetivo-da-solução)
+* [Possíveis Melhorias Futuras](#possíveis-melhorias-futuras)
+* [Funcionamento do Sistema](#funcionamento-do-sistema)
 
 ---
 
@@ -22,7 +22,7 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 O projeto **pim-01** foi desenvolvido como parte do **Projeto Integrado Multidisciplinar (PIM)** do primeiro semestre da **UNIP – São José dos Campos**, com o tema **"Análise Ética, Socioambiental e Tecnológica da Infraestrutura de Tecnologia da Informação em uma Organização"**.
 
