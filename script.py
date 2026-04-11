@@ -242,10 +242,10 @@ def login(email, senha):
     else:
         return False
 
-# Exibir os dados da empresa de forma organizada
+# Exibir os dados da empresa
 def show_company_data(data):
 
-    """Função para exibir os dados da empresa de forma organizada. """
+    """Função para exibir os dados da empresa. """
 
     company_data = []
 
@@ -260,7 +260,7 @@ def show_company_data(data):
 
 def show_stock_products(products):
 
-    """Função para exibir os produtos em estoque de forma organizada. """
+    """Função para exibir os produtos em estoque. """
 
     stock_products = []
 
@@ -276,7 +276,7 @@ def show_stock_products(products):
 
 def show_data_product(key, value):
 
-    """Função para exibir os dados de um produto de forma organizada. """
+    """Função para exibir os dados de um produto. """
 
     product_data = []
 
@@ -308,7 +308,7 @@ def calculate_total_stock(products):
 
 def calculate_product(product):
 
-    """Função para calcular os dados de um produto de forma organizada. """
+    """Função para calcular os dados de um produto. """
     
     # valor unitário do item, ou seja, o valor de 1 unidade do item
     item_value = product["preco"]
