@@ -76,159 +76,159 @@ all_stock_products = {
         "preco": 45.0,
         "desperdicio": 0.1
     },
-    "Juntas de norma de Papelão hidráulico sem tela": {
-        "nome": "Juntas de norma de Papelão hidráulico sem tela",
-        "descricao": "Junta de vedação em papelão hidráulico sem reforço, indicada para aplicações de baixa pressão, oferecendo boa vedação com custo reduzido.",
-        "dimensoes": "18x18x2 cm",
-        "peso": 0.5,
-        "quantidade": 180,
-        "preco": 32.0,
-        "desperdicio": 0.08
-    },
-    "Juntas de norma de Grafite com tela": {
-        "nome": "Juntas de norma de Grafite com tela",
-        "descricao": "Junta de vedação em grafite com reforço interno em tela metálica, indicada para altas temperaturas e pressões, com excelente desempenho em ambientes industriais.",
-        "dimensoes": "20x20x2.5 cm",
-        "peso": 0.9,
-        "quantidade": 110,
-        "preco": 98.0,
-        "desperdicio": 0.17
-    },
-    "Juntas de norma de Grafite sem tela": {
-        "nome": "Juntas de norma de Grafite sem tela",
-        "descricao": "Junta de vedação em grafite sem reforço interno, indicada para altas temperaturas com baixa a média pressão, oferecendo excelente conformabilidade.",
-        "dimensoes": "20x20x2 cm",
-        "peso": 0.7,
-        "quantidade": 140,
-        "preco": 72.0,
-        "desperdicio": 0.13
-    },
-    "Juntas patentes de Kevlar": {
-        "nome": "Juntas patentes de Kevlar",
-        "descricao": "Junta patente em Kevlar, indicada para aplicações industriais que exigem alta resistência mecânica, abrasão e durabilidade em condições severas.",
-        "dimensoes": "24x24x3 cm",
-        "peso": 1.1,
-        "quantidade": 95,
-        "preco": 158.0,
-        "desperdicio": 0.16
-    },
-    "Juntas patentes de Veda-rosca": {
-        "nome": "Juntas patentes de Veda-rosca",
-        "descricao": "Junta patente para vedação de roscas, indicada para sistemas hidráulicos e pneumáticos, garantindo vedação eficiente contra vazamentos.",
-        "dimensoes": "15x15x1 cm",
-        "peso": 0.3,
-        "quantidade": 220,
-        "preco": 18.0,
-        "desperdicio": 0.09
-    },
-    "Juntas metálicas": {
-        "nome": "Juntas metálicas",
-        "descricao": "Junta metálica de alta resistência, indicada para aplicações que exigem vedação sob altas pressões e temperaturas extremas, oferecendo durabilidade prolongada.",
-        "dimensoes": "22x22x2 mm",
-        "peso": 0.5,
-        "quantidade": 130,
-        "preco": 120.0,
-        "desperdicio": 0.15
-    },
-    "Protetores de flange de Sider": {
-        "nome": "Protetores de flange de Sider",
-        "descricao": "Protetor de flange em Sider, indicado para proteger superfícies de contato durante armazenamento e transporte, garantindo integridade das peças.",
-        "dimensoes": "30x30x3 mm",
-        "peso": 0.9,
-        "quantidade": 160,
-        "preco": 75.0,
-        "desperdicio": 0.12
-    },
-    "Protetores de flange de Tecido de sílica com teflon": {
-        "nome": "Protetores de flange de Tecido de sílica com teflon",
-        "descricao": "Protetor de flange em tecido de sílica com camada de teflon, indicado para superfícies sensíveis, resistente a altas temperaturas e items químicos.",
-        "dimensoes": "32x32x4 mm",
-        "peso": 0.7,
-        "quantidade": 140,
-        "preco": 112.0,
-        "desperdicio": 0.14
-    },
-    "Máquina de cortar juntas": {
-        "nome": "Máquina de cortar juntas",
-        "descricao": "Equipamento industrial para corte preciso de juntas em diversos materiais, garantindo acabamento uniforme e eficiência na produção.",
-        "dimensoes": "120x80x150 cm",
-        "peso": 85.0,
-        "quantidade": 5,
-        "preco": 12500.0,
-        "desperdicio": 0.2
-    },
-    "Tromba sanfonada de Kevlar com estrutura interna de ferros circulares": {
-        "nome": "Tromba sanfonada de Kevlar com estrutura interna de ferros circulares",
-        "descricao": "Tromba sanfonada em Kevlar com reforço interno de ferros circulares, indicada para absorver vibrações e movimentos em sistemas industriais, com alta durabilidade e resistência mecânica.",
-        "dimensoes": "50x50x40 cm",
-        "peso": 7.5,
-        "quantidade": 25,
-        "preco": 850.0,
-        "desperdicio": 0.18
-    },
-    "Fitas de PTFE expandido": {
-        "nome": "Fitas de PTFE expandido",
-        "descricao": "Fita de PTFE expandido, utilizada para vedação e isolamento em tubulações, resistente a items químicos e altas temperaturas, com fácil aplicação.",
-        "dimensoes": "10x0.5x5000 mm",
-        "peso": 0.2,
-        "quantidade": 300,
-        "preco": 28.0,
-        "desperdicio": 0.12
-    },
-    "Gaxetas de PTFE puro quadrada": {
-        "nome": "Gaxetas de PTFE puro quadrada",
-        "descricao": "Gaxeta quadrada em PTFE puro, indicada para vedação de equipamentos industriais, oferecendo alta resistência química e térmica com baixo atrito.",
-        "dimensoes": "10x10x5 mm",
-        "peso": 0.05,
-        "quantidade": 250,
-        "preco": 35.0,
-        "desperdicio": 0.1
-    },
-    "Gaxetas de PTFE puro redonda": {
-        "nome": "Gaxetas de PTFE puro redonda",
-        "descricao": "Gaxeta redonda em PTFE puro, indicada para vedação de eixos e tubulações, com excelente resistência química e térmica, durabilidade elevada e baixo atrito.",
-        "dimensoes": "10x5 mm",
-        "peso": 0.04,
-        "quantidade": 230,
-        "preco": 38.0,
-        "desperdicio": 0.11
-    },
-    "Gaxetas grafitada quadrada": {
-        "nome": "Gaxetas grafitada quadrada",
-        "descricao": "Gaxeta quadrada grafitada, indicada para vedação de equipamentos industriais sob altas temperaturas e pressão, oferecendo resistência química e durabilidade prolongada.",
-        "dimensoes": "12x12x4 mm",
-        "peso": 0.06,
-        "quantidade": 180,
-        "preco": 42.0,
-        "desperdicio": 0.13
-    },
-    "Gaxetas grafitada redonda": {
-        "nome": "Gaxetas grafitada redonda",
-        "descricao": "Gaxeta redonda grafitada, indicada para vedação de eixos e tubulações sob altas temperaturas, com excelente resistência química, durabilidade e baixo atrito.",
-        "dimensoes": "12x4 mm",
-        "peso": 0.05,
-        "quantidade": 190,
-        "preco": 44.0,
-        "desperdicio": 0.12
-    },
-    "Arruelas de cobre": {
-        "nome": "Arruelas de cobre",
-        "descricao": "Arruela de cobre, indicada para fixação e vedação em sistemas hidráulicos e mecânicos, oferecendo boa condutividade elétrica e resistência à corrosão.",
-        "dimensoes": "15x2 mm",
-        "peso": 0.02,
-        "quantidade": 500,
-        "preco": 1.5,
-        "desperdicio": 0.1
-    },
-    "Arruelas de aço": {
-        "nome": "Arruelas de aço",
-        "descricao": "Arruela de aço, indicada para fixação em sistemas mecânicos e estruturas, oferecendo alta resistência mecânica e durabilidade em ambientes industriais.",
-        "dimensoes": "15x2 mm",
-        "peso": 0.03,
-        "quantidade": 450,
-        "preco": 1.2,
-        "desperdicio": 0.1
-    }
+    # "Juntas de norma de Papelão hidráulico sem tela": {
+    #     "nome": "Juntas de norma de Papelão hidráulico sem tela",
+    #     "descricao": "Junta de vedação em papelão hidráulico sem reforço, indicada para aplicações de baixa pressão, oferecendo boa vedação com custo reduzido.",
+    #     "dimensoes": "18x18x2 cm",
+    #     "peso": 0.5,
+    #     "quantidade": 180,
+    #     "preco": 32.0,
+    #     "desperdicio": 0.08
+    # },
+    # "Juntas de norma de Grafite com tela": {
+    #     "nome": "Juntas de norma de Grafite com tela",
+    #     "descricao": "Junta de vedação em grafite com reforço interno em tela metálica, indicada para altas temperaturas e pressões, com excelente desempenho em ambientes industriais.",
+    #     "dimensoes": "20x20x2.5 cm",
+    #     "peso": 0.9,
+    #     "quantidade": 110,
+    #     "preco": 98.0,
+    #     "desperdicio": 0.17
+    # },
+    # "Juntas de norma de Grafite sem tela": {
+    #     "nome": "Juntas de norma de Grafite sem tela",
+    #     "descricao": "Junta de vedação em grafite sem reforço interno, indicada para altas temperaturas com baixa a média pressão, oferecendo excelente conformabilidade.",
+    #     "dimensoes": "20x20x2 cm",
+    #     "peso": 0.7,
+    #     "quantidade": 140,
+    #     "preco": 72.0,
+    #     "desperdicio": 0.13
+    # },
+    # "Juntas patentes de Kevlar": {
+    #     "nome": "Juntas patentes de Kevlar",
+    #     "descricao": "Junta patente em Kevlar, indicada para aplicações industriais que exigem alta resistência mecânica, abrasão e durabilidade em condições severas.",
+    #     "dimensoes": "24x24x3 cm",
+    #     "peso": 1.1,
+    #     "quantidade": 95,
+    #     "preco": 158.0,
+    #     "desperdicio": 0.16
+    # },
+    # "Juntas patentes de Veda-rosca": {
+    #     "nome": "Juntas patentes de Veda-rosca",
+    #     "descricao": "Junta patente para vedação de roscas, indicada para sistemas hidráulicos e pneumáticos, garantindo vedação eficiente contra vazamentos.",
+    #     "dimensoes": "15x15x1 cm",
+    #     "peso": 0.3,
+    #     "quantidade": 220,
+    #     "preco": 18.0,
+    #     "desperdicio": 0.09
+    # },
+    # "Juntas metálicas": {
+    #     "nome": "Juntas metálicas",
+    #     "descricao": "Junta metálica de alta resistência, indicada para aplicações que exigem vedação sob altas pressões e temperaturas extremas, oferecendo durabilidade prolongada.",
+    #     "dimensoes": "22x22x2 mm",
+    #     "peso": 0.5,
+    #     "quantidade": 130,
+    #     "preco": 120.0,
+    #     "desperdicio": 0.15
+    # },
+    # "Protetores de flange de Sider": {
+    #     "nome": "Protetores de flange de Sider",
+    #     "descricao": "Protetor de flange em Sider, indicado para proteger superfícies de contato durante armazenamento e transporte, garantindo integridade das peças.",
+    #     "dimensoes": "30x30x3 mm",
+    #     "peso": 0.9,
+    #     "quantidade": 160,
+    #     "preco": 75.0,
+    #     "desperdicio": 0.12
+    # },
+    # "Protetores de flange de Tecido de sílica com teflon": {
+    #     "nome": "Protetores de flange de Tecido de sílica com teflon",
+    #     "descricao": "Protetor de flange em tecido de sílica com camada de teflon, indicado para superfícies sensíveis, resistente a altas temperaturas e items químicos.",
+    #     "dimensoes": "32x32x4 mm",
+    #     "peso": 0.7,
+    #     "quantidade": 140,
+    #     "preco": 112.0,
+    #     "desperdicio": 0.14
+    # },
+    # "Máquina de cortar juntas": {
+    #     "nome": "Máquina de cortar juntas",
+    #     "descricao": "Equipamento industrial para corte preciso de juntas em diversos materiais, garantindo acabamento uniforme e eficiência na produção.",
+    #     "dimensoes": "120x80x150 cm",
+    #     "peso": 85.0,
+    #     "quantidade": 5,
+    #     "preco": 12500.0,
+    #     "desperdicio": 0.2
+    # },
+    # "Tromba sanfonada de Kevlar com estrutura interna de ferros circulares": {
+    #     "nome": "Tromba sanfonada de Kevlar com estrutura interna de ferros circulares",
+    #     "descricao": "Tromba sanfonada em Kevlar com reforço interno de ferros circulares, indicada para absorver vibrações e movimentos em sistemas industriais, com alta durabilidade e resistência mecânica.",
+    #     "dimensoes": "50x50x40 cm",
+    #     "peso": 7.5,
+    #     "quantidade": 25,
+    #     "preco": 850.0,
+    #     "desperdicio": 0.18
+    # },
+    # "Fitas de PTFE expandido": {
+    #     "nome": "Fitas de PTFE expandido",
+    #     "descricao": "Fita de PTFE expandido, utilizada para vedação e isolamento em tubulações, resistente a items químicos e altas temperaturas, com fácil aplicação.",
+    #     "dimensoes": "10x0.5x5000 mm",
+    #     "peso": 0.2,
+    #     "quantidade": 300,
+    #     "preco": 28.0,
+    #     "desperdicio": 0.12
+    # },
+    # "Gaxetas de PTFE puro quadrada": {
+    #     "nome": "Gaxetas de PTFE puro quadrada",
+    #     "descricao": "Gaxeta quadrada em PTFE puro, indicada para vedação de equipamentos industriais, oferecendo alta resistência química e térmica com baixo atrito.",
+    #     "dimensoes": "10x10x5 mm",
+    #     "peso": 0.05,
+    #     "quantidade": 250,
+    #     "preco": 35.0,
+    #     "desperdicio": 0.1
+    # },
+    # "Gaxetas de PTFE puro redonda": {
+    #     "nome": "Gaxetas de PTFE puro redonda",
+    #     "descricao": "Gaxeta redonda em PTFE puro, indicada para vedação de eixos e tubulações, com excelente resistência química e térmica, durabilidade elevada e baixo atrito.",
+    #     "dimensoes": "10x5 mm",
+    #     "peso": 0.04,
+    #     "quantidade": 230,
+    #     "preco": 38.0,
+    #     "desperdicio": 0.11
+    # },
+    # "Gaxetas grafitada quadrada": {
+    #     "nome": "Gaxetas grafitada quadrada",
+    #     "descricao": "Gaxeta quadrada grafitada, indicada para vedação de equipamentos industriais sob altas temperaturas e pressão, oferecendo resistência química e durabilidade prolongada.",
+    #     "dimensoes": "12x12x4 mm",
+    #     "peso": 0.06,
+    #     "quantidade": 180,
+    #     "preco": 42.0,
+    #     "desperdicio": 0.13
+    # },
+    # "Gaxetas grafitada redonda": {
+    #     "nome": "Gaxetas grafitada redonda",
+    #     "descricao": "Gaxeta redonda grafitada, indicada para vedação de eixos e tubulações sob altas temperaturas, com excelente resistência química, durabilidade e baixo atrito.",
+    #     "dimensoes": "12x4 mm",
+    #     "peso": 0.05,
+    #     "quantidade": 190,
+    #     "preco": 44.0,
+    #     "desperdicio": 0.12
+    # },
+    # "Arruelas de cobre": {
+    #     "nome": "Arruelas de cobre",
+    #     "descricao": "Arruela de cobre, indicada para fixação e vedação em sistemas hidráulicos e mecânicos, oferecendo boa condutividade elétrica e resistência à corrosão.",
+    #     "dimensoes": "15x2 mm",
+    #     "peso": 0.02,
+    #     "quantidade": 500,
+    #     "preco": 1.5,
+    #     "desperdicio": 0.1
+    # },
+    # "Arruelas de aço": {
+    #     "nome": "Arruelas de aço",
+    #     "descricao": "Arruela de aço, indicada para fixação em sistemas mecânicos e estruturas, oferecendo alta resistência mecânica e durabilidade em ambientes industriais.",
+    #     "dimensoes": "15x2 mm",
+    #     "peso": 0.03,
+    #     "quantidade": 450,
+    #     "preco": 1.2,
+    #     "desperdicio": 0.1
+    # }
 }
 
 #Funções:
@@ -254,7 +254,7 @@ def show_company_data(data):
         company_data.append(f"{key.capitalize()}: {value}")
 
     # concatena os dados formatados em uma string
-    result = "Dados da empresa:" + " " + company_data[0] + ", " + company_data[1] + ", " + company_data[2] + ", " + company_data[3] + ", " + company_data[4] + ", " + company_data[5] + ", " + company_data[6] + ", " + company_data[7] + ", " + company_data[8] + ", " + company_data[9]
+    result = "Dados da empresa:" + " " + company_data[0] + ", " + company_data[1] + ", " + company_data[2] + ", " + company_data[3] + ", " + company_data[4] + ", " + company_data[5] + ", " + company_data[6] + ", " + company_data[7] + ", " + company_data[8] + ", " + company_data[9] + ", " + company_data[10]
 
     return result
 
@@ -268,7 +268,9 @@ def show_stock_products(products):
     for key in products.keys():
         stock_products.append(key)
 
-    result = "items em estoque: " + stock_products[0] + ", " + stock_products[1] + ", " + stock_products[2] + ", " + stock_products[3] + ", " + stock_products[4] + ", " + stock_products[5] + ", " + stock_products[6] + ", " + stock_products[7] + ", " + stock_products[8] + ", " + stock_products[9] + ", " + stock_products[10] + ", " + stock_products[11] + ", " + stock_products[12] + ", " + stock_products[13] + ", " + stock_products[14] + ", " + stock_products[15] + ", " + stock_products[16] + ", " + stock_products[17] + ", " + stock_products[18] + ", " + stock_products[19] + ", " + stock_products[20] + ", " + stock_products[21] + ", " + stock_products[22]
+    # result = "items em estoque: " + stock_products[0] + ", " + stock_products[1] + ", " + stock_products[2] + ", " + stock_products[3] + ", " + stock_products[4] + ", " + stock_products[5] + ", " + stock_products[6] + ", " + stock_products[7] + ", " + stock_products[8] + ", " + stock_products[9] + ", " + stock_products[10] + ", " + stock_products[11] + ", " + stock_products[12] + ", " + stock_products[13] + ", " + stock_products[14] + ", " + stock_products[15] + ", " + stock_products[16] + ", " + stock_products[17] + ", " + stock_products[18] + ", " + stock_products[19] + ", " + stock_products[20] + ", " + stock_products[21] + ", " + stock_products[22]
+
+    result = "items em estoque: " + stock_products[0] + ", " + stock_products[1] + ", " + stock_products[2] + ", " + stock_products[3] + ", " + stock_products[4] + ", " + stock_products[5] 
 
     return result
 
@@ -282,7 +284,9 @@ def show_data_product(key, value):
     for key, value in value.items():
         product_data.append(f"{key.capitalize()}: {value}")
 
-    result = product_data[0] + ", " + product_data[1] + ", " + product_data[2] + ", " + product_data[3] + ", " + product_data[4] + ", " + product_data[5]
+    # result = product_data[0] + ", " + product_data[1] + ", " + product_data[2] + ", " + product_data[3] + ", " + product_data[4] + ", " + product_data[5] + ", " + product_data[6] + ", " + product_data[7] + ", " + product_data[8] + ", " + product_data[9] + ", " + product_data[10] + ", " + product_data[11] + ", " + product_data[12] + ", " + product_data[13] + ", " + product_data[14] + ", " + product_data[15] + ", " + product_data[16] + ", " + product_data[17] + ", " + product_data[18] + ", " + product_data[19] + ", " + product_data[20] + ", " + product_data[21] + ", " + product_data[22]
+
+    result = product_data[0] + ", " + product_data[1] + ", " + product_data[2] + ", " + product_data[3] + ", " + product_data[4] + ", " + product_data[5] 
 
     return result
 
