@@ -122,13 +122,18 @@ Para cada item do estoque, o sistema também calcula:
 
 ### Fluxo de Execução
 
-1. O sistema solicita o login do usuário  
-2. Valida as credenciais  
-3. Exibe os dados da empresa  
-4. Lista os produtos em estoque  
-5. Mostra os detalhes de cada produto  
-6. Calcula os totais gerais do estoque  
-7. Calcula os dados individuais de cada produto  
+1. O sistema solicita o login do usuário
+2. Valida as credenciais
+3. Exibe o menu de navegação no terminal
+4. O usuário seleciona uma opção desejada
+5. O sistema executa a funcionalidade correspondente:
+   * Exibir dados da empresa
+   * Listar produtos em estoque
+   * Mostrar detalhes dos produtos
+   * Calcular dados gerais do estoque
+   * Calcular dados de um produto específico
+6. O menu é exibido novamente, permitindo novas operações
+7. O sistema encerra apenas quando o usuário seleciona a opção de saída
 
 ### Interface
 
