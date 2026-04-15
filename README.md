@@ -55,6 +55,21 @@ O sistema foi desenvolvido com o objetivo de simular um controle de estoque e an
 O acesso ao sistema é realizado por meio de um login simples, onde o usuário deve informar **email** e **senha**.  
 Esses dados são validados com informações previamente definidas no sistema.
 
+### Navegação do Sistema
+
+O sistema possui um menu interativo no terminal, que permite ao usuário acessar diferentes funcionalidades por meio da escolha de opções numéricas.
+
+Após realizar o login, o usuário pode navegar entre as seguintes opções:
+
+Exibir dados da empresa: apresenta as informações cadastradas da empresa.
+Exibir produtos em estoque: lista todos os produtos disponíveis no estoque.
+Exibir informações dos produtos: mostra os detalhes completos de cada item.
+Calcular dados gerais dos produtos em estoque: exibe informações sobre o estoque.
+Calcular dados dos produtos: permite consultar dados detalhados dos produtos.
+Sair: encerra a execução do sistema.
+
+A navegação é contínua, permitindo que o usuário execute múltiplas operações até optar por sair do sistema.
+
 ### Dados da Empresa
 
 As informações da empresa são armazenadas em um dicionário contendo dados como:
@@ -88,7 +103,9 @@ O sistema realiza automaticamente cálculos importantes para a gestão, como:
 
 - Quantidade total de itens em estoque  
 - Peso total dos produtos  
-- Valor total do estoque  
+- Valor total do estoque
+- Produto mais caro
+- Produto mais barato
 
 ### Cálculo por Produto
 
