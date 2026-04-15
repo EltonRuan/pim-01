@@ -154,7 +154,7 @@ all_stock_products = {
         "dimensoes": "120x80x150 cm",
         "peso": 85.0,
         "quantidade": 5,
-        "preco": 12500.0,
+        "preco": 4500.0,
         "desperdicio": 0.2
     },
     "Tromba sanfonada de Kevlar com estrutura interna de ferros circulares": {
