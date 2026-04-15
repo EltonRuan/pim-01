@@ -385,7 +385,7 @@ else:
         print("2. Exibir produtos em estoque")
         print("3. Exibir informações dos produtos")
         print("4. Calcular dados gerais dos produtos em estoque")
-        print("5. Calcular dados de um produto específico")
+        print("5. Calcular dados dos produtos")
         print("6. Sair\n")
 
         # solicita ao usuário que digite o número da opção desejada
