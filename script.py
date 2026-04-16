@@ -22,8 +22,8 @@ all_company_data = {
 
 # dados dos items em estoque
 all_stock_products = {
-    "Juntas de expansão de Kevlar": {
-        "nome": "Juntas de expansão de Kevlar",
+    "Junta de expansão de Kevlar": {
+        "nome": "Junta de expansão de Kevlar",
         "descricao": "Junta de expansão fabricada em Kevlar, indicada para absorção de vibrações e dilatações em tubulações industriais.",
         "dimensoes": "30x30x5 cm",
         "peso": 1.2,
@@ -31,8 +31,8 @@ all_stock_products = {
         "preco": 185.0,
         "desperdicio": 0.15
     },
-    "Juntas de expansão de Fibra de vidro": {
-        "nome": "Juntas de expansão de Fibra de vidro",
+    "Junta de expansão de Fibra de vidro": {
+        "nome": "Junta de expansão de Fibra de vidro",
         "descricao": "Junta de expansão em fibra de vidro, ideal para aplicações com alta temperatura e baixa pressão, oferecendo boa resistência térmica.",
         "dimensoes": "25x25x4 cm",
         "peso": 0.9,
@@ -40,8 +40,8 @@ all_stock_products = {
         "preco": 132.5,
         "desperdicio": 0.12
     },
-    "Juntas de expansão de Fibra cerâmica": {
-        "nome": "Juntas de expansão de Fibra cerâmica",
+    "Junta de expansão de Fibra cerâmica": {
+        "nome": "Junta de expansão de Fibra cerâmica",
         "descricao": "Junta de expansão em fibra cerâmica, indicada para aplicações de altíssimas temperaturas, com excelente isolamento térmico e resistência química.",
         "dimensoes": "20x20x3 cm",
         "peso": 0.7,
@@ -49,8 +49,8 @@ all_stock_products = {
         "preco": 210.0,
         "desperdicio": 0.18
     },
-    "Juntas de expansão de Sider": {
-        "nome": "Juntas de expansão de Sider",
+    "Junta de expansão de Sider": {
+        "nome": "Junta de expansão de Sider",
         "descricao": "Junta de expansão em material siderúrgico, indicada para sistemas industriais que exigem boa resistência mecânica e durabilidade.",
         "dimensoes": "28x28x6 cm",
         "peso": 1.6,
@@ -58,8 +58,8 @@ all_stock_products = {
         "preco": 165.0,
         "desperdicio": 0.14
     },
-    "Juntas de expansão de Tecido de sílica": {
-        "nome": "Juntas de expansão de Tecido de sílica",
+    "Junta de expansão de Tecido de sílica": {
+        "nome": "Junta de expansão de Tecido de sílica",
         "descricao": "Junta de expansão em tecido de sílica, indicada para aplicações com altas temperaturas, oferecendo excelente resistência térmica e flexibilidade.",
         "dimensoes": "22x22x4 cm",
         "peso": 0.8,
@@ -67,8 +67,8 @@ all_stock_products = {
         "preco": 195.0,
         "desperdicio": 0.16
     },
-    "Juntas de norma de Papelão hidráulico com tela": {
-        "nome": "Juntas de norma de Papelão hidráulico com tela",
+    "Junta de norma de Papelão hidráulico com tela": {
+        "nome": "Junta de norma de Papelão hidráulico com tela",
         "descricao": "Junta de vedação em papelão hidráulico com reforço interno em tela, indicada para aplicações com pressão moderada, garantindo maior resistência mecânica.",
         "dimensoes": "18x18x2 cm",
         "peso": 0.6,
@@ -76,8 +76,8 @@ all_stock_products = {
         "preco": 45.0,
         "desperdicio": 0.1
     },
-    "Juntas de norma de Papelão hidráulico sem tela": {
-        "nome": "Juntas de norma de Papelão hidráulico sem tela",
+    "Junta de norma de Papelão hidráulico sem tela": {
+        "nome": "Junta de norma de Papelão hidráulico sem tela",
         "descricao": "Junta de vedação em papelão hidráulico sem reforço, indicada para aplicações de baixa pressão, oferecendo boa vedação com custo reduzido.",
         "dimensoes": "18x18x2 cm",
         "peso": 0.5,
@@ -85,8 +85,8 @@ all_stock_products = {
         "preco": 32.0,
         "desperdicio": 0.08
     },
-    "Juntas de norma de Grafite com tela": {
-        "nome": "Juntas de norma de Grafite com tela",
+    "Junta de norma de Grafite com tela": {
+        "nome": "Junta de norma de Grafite com tela",
         "descricao": "Junta de vedação em grafite com reforço interno em tela metálica, indicada para altas temperaturas e pressões, com excelente desempenho em ambientes industriais.",
         "dimensoes": "20x20x2.5 cm",
         "peso": 0.9,
@@ -94,8 +94,8 @@ all_stock_products = {
         "preco": 98.0,
         "desperdicio": 0.17
     },
-    "Juntas de norma de Grafite sem tela": {
-        "nome": "Juntas de norma de Grafite sem tela",
+    "Junta de norma de Grafite sem tela": {
+        "nome": "Junta de norma de Grafite sem tela",
         "descricao": "Junta de vedação em grafite sem reforço interno, indicada para altas temperaturas com baixa a média pressão, oferecendo excelente conformabilidade.",
         "dimensoes": "20x20x2 cm",
         "peso": 0.7,
@@ -103,8 +103,8 @@ all_stock_products = {
         "preco": 72.0,
         "desperdicio": 0.13
     },
-    "Juntas patentes de Kevlar": {
-        "nome": "Juntas patentes de Kevlar",
+    "Junta patente de Kevlar": {
+        "nome": "Junta patente de Kevlar",
         "descricao": "Junta patente em Kevlar, indicada para aplicações industriais que exigem alta resistência mecânica, abrasão e durabilidade em condições severas.",
         "dimensoes": "24x24x3 cm",
         "peso": 1.1,
@@ -112,8 +112,8 @@ all_stock_products = {
         "preco": 158.0,
         "desperdicio": 0.16
     },
-    "Juntas patentes de Veda-rosca": {
-        "nome": "Juntas patentes de Veda-rosca",
+    "Junta patente de Veda-rosca": {
+        "nome": "Junta patente de Veda-rosca",
         "descricao": "Junta patente para vedação de roscas, indicada para sistemas hidráulicos e pneumáticos, garantindo vedação eficiente contra vazamentos.",
         "dimensoes": "15x15x1 cm",
         "peso": 0.3,
@@ -121,8 +121,8 @@ all_stock_products = {
         "preco": 18.0,
         "desperdicio": 0.09
     },
-    "Juntas metálicas": {
-        "nome": "Juntas metálicas",
+    "Junta metálica": {
+        "nome": "Junta metálica",
         "descricao": "Junta metálica de alta resistência, indicada para aplicações que exigem vedação sob altas pressões e temperaturas extremas, oferecendo durabilidade prolongada.",
         "dimensoes": "22x22x2 mm",
         "peso": 0.5,
@@ -130,8 +130,8 @@ all_stock_products = {
         "preco": 120.0,
         "desperdicio": 0.15
     },
-    "Protetores de flange de Sider": {
-        "nome": "Protetores de flange de Sider",
+    "Protetor de flange de Sider": {
+        "nome": "Protetor de flange de Sider",
         "descricao": "Protetor de flange em Sider, indicado para proteger superfícies de contato durante armazenamento e transporte, garantindo integridade das peças.",
         "dimensoes": "30x30x3 mm",
         "peso": 0.9,
@@ -139,8 +139,8 @@ all_stock_products = {
         "preco": 75.0,
         "desperdicio": 0.12
     },
-    "Protetores de flange de Tecido de sílica com teflon": {
-        "nome": "Protetores de flange de Tecido de sílica com teflon",
+    "Protetor de flange de Tecido de sílica com teflon": {
+        "nome": "Protetor de flange de Tecido de sílica com teflon",
         "descricao": "Protetor de flange em tecido de sílica com camada de teflon, indicado para superfícies sensíveis, resistente a altas temperaturas e items químicos.",
         "dimensoes": "32x32x4 mm",
         "peso": 0.7,
@@ -166,8 +166,8 @@ all_stock_products = {
         "preco": 850.0,
         "desperdicio": 0.18
     },
-    "Fitas de PTFE expandido": {
-        "nome": "Fitas de PTFE expandido",
+    "Fita de PTFE expandido": {
+        "nome": "Fita de PTFE expandido",
         "descricao": "Fita de PTFE expandido, utilizada para vedação e isolamento em tubulações, resistente a items químicos e altas temperaturas, com fácil aplicação.",
         "dimensoes": "10x0.5x5000 mm",
         "peso": 0.2,
@@ -175,8 +175,8 @@ all_stock_products = {
         "preco": 28.0,
         "desperdicio": 0.12
     },
-    "Gaxetas de PTFE puro quadrada": {
-        "nome": "Gaxetas de PTFE puro quadrada",
+    "Gaxeta de PTFE puro quadrada": {
+        "nome": "Gaxeta de PTFE puro quadrada",
         "descricao": "Gaxeta quadrada em PTFE puro, indicada para vedação de equipamentos industriais, oferecendo alta resistência química e térmica com baixo atrito.",
         "dimensoes": "10x10x5 mm",
         "peso": 0.05,
@@ -184,8 +184,8 @@ all_stock_products = {
         "preco": 35.0,
         "desperdicio": 0.1
     },
-    "Gaxetas de PTFE puro redonda": {
-        "nome": "Gaxetas de PTFE puro redonda",
+    "Gaxeta de PTFE puro redonda": {
+        "nome": "Gaxeta de PTFE puro redonda",
         "descricao": "Gaxeta redonda em PTFE puro, indicada para vedação de eixos e tubulações, com excelente resistência química e térmica, durabilidade elevada e baixo atrito.",
         "dimensoes": "10x5 mm",
         "peso": 0.04,
@@ -193,8 +193,8 @@ all_stock_products = {
         "preco": 38.0,
         "desperdicio": 0.11
     },
-    "Gaxetas grafitada quadrada": {
-        "nome": "Gaxetas grafitada quadrada",
+    "Gaxeta grafitada quadrada": {
+        "nome": "Gaxeta grafitada quadrada",
         "descricao": "Gaxeta quadrada grafitada, indicada para vedação de equipamentos industriais sob altas temperaturas e pressão, oferecendo resistência química e durabilidade prolongada.",
         "dimensoes": "12x12x4 mm",
         "peso": 0.06,
@@ -202,8 +202,8 @@ all_stock_products = {
         "preco": 42.0,
         "desperdicio": 0.13
     },
-    "Gaxetas grafitada redonda": {
-        "nome": "Gaxetas grafitada redonda",
+    "Gaxeta grafitada redonda": {
+        "nome": "Gaxeta grafitada redonda",
         "descricao": "Gaxeta redonda grafitada, indicada para vedação de eixos e tubulações sob altas temperaturas, com excelente resistência química, durabilidade e baixo atrito.",
         "dimensoes": "12x4 mm",
         "peso": 0.05,
@@ -211,8 +211,8 @@ all_stock_products = {
         "preco": 44.0,
         "desperdicio": 0.12
     },
-    "Arruelas de cobre": {
-        "nome": "Arruelas de cobre",
+    "Arruela de cobre": {
+        "nome": "Arruela de cobre",
         "descricao": "Arruela de cobre, indicada para fixação e vedação em sistemas hidráulicos e mecânicos, oferecendo boa condutividade elétrica e resistência à corrosão.",
         "dimensoes": "15x2 mm",
         "peso": 0.02,
@@ -220,8 +220,8 @@ all_stock_products = {
         "preco": 1.5,
         "desperdicio": 0.1
     },
-    "Arruelas de aço": {
-        "nome": "Arruelas de aço",
+    "Arruela de aço": {
+        "nome": "Arruela de aço",
         "descricao": "Arruela de aço, indicada para fixação em sistemas mecânicos e estruturas, oferecendo alta resistência mecânica e durabilidade em ambientes industriais.",
         "dimensoes": "15x2 mm",
         "peso": 0.03,
