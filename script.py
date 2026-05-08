@@ -432,9 +432,17 @@ else:
 
 
         elif options == "6":
-            print("Saindo do sistema...\n")
-            print("Obrigado por utilizar o sistema de controle de estoque da empresa Stampflex!")
-            break
+
+            confirm = input("Deseja realmente sair do sistema? (s/n): ")
+
+            if confirm.lower() == "s":
+                print("Saindo do sistema...\n")
+                print("Obrigado por utilizar o sistema de controle de estoque da empresa Stampflex!")
+                break
+            elif confirm.lower() == "n":
+                print("Retornando ao menu de opções...\n")
+            else:
+                print("Opção inválida. Tente novamente.\n")
 
         else:
             print("Opção inválida. Tente novamente.\n")
